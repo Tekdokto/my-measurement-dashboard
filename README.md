@@ -69,7 +69,6 @@ Generates a \`build\` folder with optimized assets.
 - **Delete / Edit Records**: Add a delete button per row, or allow editing a saved record.
 - **Sorting / Filtering**: Sort by timestamp or distance, or filter out older records.
 - **Undo Functionality**: For removing the last drawn rectangle without clearing everything.
-- **Testing**: Use Jest or React Testing Library to ensure correctness of the context logic 
   and UI interactions.
 
 ## License
