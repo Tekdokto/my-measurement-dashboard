@@ -152,7 +152,7 @@ const AppContent: React.FC = () => {
           <label htmlFor="sort-distance">
             Sort By:
           </label>
-          <select id="sort-distance" onChange={(e) => handleSort(e.target.value)}>
+          <select onChange={(e) => handleSort(e.target.value)}>
             <option value="timestamp">Timestamp</option>
             <option value="distance">Distance</option>
           </select>
@@ -161,11 +161,11 @@ const AppContent: React.FC = () => {
           <label htmlFor="filter-distance">
             Filter By Distance:
           </label>
-          <select id="filter-distance" onChange={(e) => handleFilter(e.target.value)}>
+          <select onChange={(e) => handleFilter(e.target.value)}>
             <option value="all">All</option>
-            <option value="short">Short</option>
-            <option value="medium">Medium</option>
-            <option value="long">Long</option>
+            <option value="short">Short ({'<'} 100px)</option>
+            <option value="medium">Medium (100-200px)</option>
+            <option value="long">Long ({'>'} 200px)</option>
           </select>
         </div>
       </div>
