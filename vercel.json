@@ -14,12 +14,8 @@
       "dest": "/index.html"
     }
   ],
-  "build": {
-    "env": {
-      "NODE_VERSION": "16", // Specify a compatible Node.js version
-      "NODE_OPTIONS": "--max_old_space_size=4096", // Increase memory for build
-      "PKG_CONFIG_PATH": "/usr/lib/x86_64-linux-gnu/pkgconfig",
-      "LD_LIBRARY_PATH": "/usr/lib/x86_64-linux-gnu"
-    }
+  "env": {
+    "NODE_VERSION": "16",
+    "NODE_OPTIONS": "--max_old_space_size=4096"
   }
 }
