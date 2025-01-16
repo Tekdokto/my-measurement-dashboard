@@ -59,8 +59,8 @@ Generates a \`build\` folder with optimized assets.
 
 ## Project Structure
 
-- \`CanvasContext.tsx\`: Houses the canvas and local storage logic, plus a \`useCanva\` hook. 
-- \`App.tsx\`: Consumes the context and provides the main UI (canvas, buttons, table).
+- \`src/CanvasContext.tsx\`: Houses the canvas and local storage logic, plus a \`useCanva\` hook. 
+- \`src/App.tsx\`: Consumes the context and provides the main UI (canvas, buttons, table).
 - \`types.ts\`: Shared TypeScript interfaces for rectangles and saved records.
 - \`index.tsx\`: Renders the application, wrapping \`App\` in \`CanvaProvider\`.
 
@@ -69,7 +69,6 @@ Generates a \`build\` folder with optimized assets.
 - **Delete / Edit Records**: Add a delete button per row, or allow editing a saved record.
 - **Sorting / Filtering**: Sort by timestamp or distance, or filter out older records.
 - **Undo Functionality**: For removing the last drawn rectangle without clearing everything.
-- **Testing**: Use Jest or React Testing Library to ensure correctness of the context logic 
   and UI interactions.
 
 ## License
